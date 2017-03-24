@@ -196,6 +196,7 @@
         [self.effect removeAllAnimations];
     }
     [self.effect removeFromSuperlayer];
+    [self removeAllAnimations];
     [self removeFromSuperlayer];
 }
 
